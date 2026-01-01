@@ -1,0 +1,34 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.side {
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
+.bio {
+    padding-right: 5vw;
+}
+
+.contact {
+    display: block;
+    margin-top: 5vw;
+}
+
+#profile-pic {
+    max-width: 25vw;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10vw;
+}
